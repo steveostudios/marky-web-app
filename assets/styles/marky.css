@@ -1,0 +1,44 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+.link {
+	margin: 0 0 20px 0;
+	width: 144px;
+	height: 144px;
+	text-align: center;
+	color: #fff;
+	
+}
+.link a {
+	padding: 0;
+	color: #fff;
+  text-decoration: none;
+	width: 144px;
+	height: 144px;
+  display: block;
+  border-radius: 5px;
+}
+.link a i {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	width: 48px;
+	height: 48px;
+	line-height: 144px;
+}
+.link a:hover {
+	opacity: 0.9;
+}
